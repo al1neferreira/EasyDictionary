@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/part_of_speech_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="noun"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/my_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Definitions : "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/definitions_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1 definition: \n\n 2 second: \n\n 3 third:"/>
+
+    <TextView
+        android:id="@+id/synonyms_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Synonyms : "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/synonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="aasdasdasd, asdasdas, asdasda"/>
+
+    <TextView
+        android:id="@+id/antonyms_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Antonyms : "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/antonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="aasdasdasd, asdasdas, asdasda"/>
+
+
+
+
+
+</LinearLayout>
